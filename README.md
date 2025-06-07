@@ -1,99 +1,72 @@
-#📱 Mobile Plan Calculator - VB.NET
-
-Overview
-This is a basic Windows Forms application built using Visual Basic .NET. The program allows users to calculate their monthly mobile phone plan cost based on selected options such as talk minutes, phone type, text messaging, and video chat features. It then applies tax and displays the final monthly cost.
-
-
-🧩 Features
-Selectable talk time plans:
-
-800 Minutes – $19.99
-
-1500 Minutes – $28.99
-
-Unlimited Talk – $39.99
-
-Choose a phone type:
-
-Samsung – $29.99
-
-iPhone – $39.99
-
-Customer's Own Phone – $0
-
-Optional add-ons:
-
-Unlimited Text Messaging – $10.00
-
-Video Chat – $15.00
-
-Calculates:
-
-Subtotal
-
-Tax (7.5%)
-
-Total Monthly Cost
-
-Buttons to calculate, clear, and exit the form.
+📱 Mobile Plan Cost Calculator – VB.NET Application
+Description
+This Windows Forms application, developed in Visual Basic .NET (VB.NET), provides users with an interactive interface to calculate the monthly cost of a mobile phone plan. Users can select from various talk time plans, phone models, and optional add-ons. The application computes the subtotal, applies tax, and displays the final monthly charge.
 
 
+Features
+Talk Time Plans
 
-🛠 How It Works
-User Input:
+800 Minutes — $19.99
 
-The user selects one radio button from each group:
+1500 Minutes — $28.99
 
-Talk Plan (800, 1500, Unlimited)
+Unlimited Talk — $39.99
 
-Phone Type (Samsung, iPhone, Own Phone)
+Phone Options
 
-Optionally checks one or both add-on checkboxes:
+Samsung — $29.99
 
-Unlimited Text
+iPhone — $39.99
 
-Video Chat
+Use Customer’s Own Phone — $0.00
 
-Calculation Logic:
+Optional Add-ons
 
-Adds base plan rate
+Unlimited Text Messaging — $10.00
 
-Adds phone cost (if not using own phone)
+Video Chat — $15.00
 
-Adds selected add-on(s)
+Tax Rate: 7.5%
 
-Applies a 7.5% tax
+Outputs
 
-Displays subtotal, tax amount, and total
+Monthly Subtotal
 
-Reset and Exit:
+Calculated Tax
 
-"Clear" resets all selections and labels
+Final Monthly Total
 
-"Exit" closes the application
+User Controls
 
+Calculate: Performs all computations and displays results
 
+Clear: Resets the form to default state
 
-🧾 UI Elements
-Radio Buttons:
+Exit: Closes the application
 
-rad800min, rad1500min, radUnlimitedTalk
+Application Structure
+Input Controls
+Radio Buttons
 
-radSamsung, radIphone, radCustmerPhone
+Talk Plans: rad800min, rad1500min, radUnlimitedTalk
 
-Checkboxes:
+Phone Selection: radSamsung, radIphone, radCustmerPhone
 
-chckUnlimitedText, chckVideoChat
+Checkboxes
 
-Labels (Outputs):
+Add-ons: chckUnlimitedText, chckVideoChat
 
-lblSubtotal, lblTax, lblMonthlyTotal
+Output Labels
+lblSubtotal: Displays the pre-tax total
 
-Buttons:
+lblTax: Displays the calculated tax
 
-btnCalculate – Calculates cost
+lblMonthlyTotal: Displays the final total after tax
 
-btnClear – Clears inputs
+Buttons
+btnCalculate: Triggers calculation of plan cost
 
-btnExit – Closes the application
+btnClear: Clears all selections and resets output
+
+btnExit: Exits the application
 
