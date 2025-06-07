@@ -1,4 +1,4 @@
-#📱 Mobile Plan Calculator – VB.NET
+# 📱 Mobile Plan Calculator – VB.NET
 
 Welcome to the Mobile Plan Calculator – a Windows Forms application developed in VB.NET. This tool enables users to estimate their monthly mobile phone bill based on selected plans, devices, and optional services. Built as part of a .NET learning project, it demonstrates form design, control handling, and basic business logic implementation.
 
