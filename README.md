@@ -2,7 +2,7 @@
 
 Welcome to the Mobile Plan Calculator – a Windows Forms application developed in VB.NET. This tool enables users to estimate their monthly mobile phone bill based on selected plans, devices, and optional services. Built as part of a .NET learning project, it demonstrates form design, control handling, and basic business logic implementation.
 
-🧑‍💻 About the Project
+# 🧑‍💻 About the Project
 Interactive desktop application built using Windows Forms and VB.NET
 
 Allows users to select a talk plan, phone type, and add-on features
@@ -11,7 +11,7 @@ Performs live cost calculations including subtotal, tax (7.5%), and final total
 
 Designed for beginner developers practicing event-driven programming
 
-📌 Technologies Used
+# 📌 Technologies Used
 Language: Visual Basic .NET (VB.NET)
 
 Platform: Windows Forms (.NET Framework)
@@ -20,7 +20,7 @@ IDE: Visual Studio
 
 Concepts: Event-driven programming, conditional logic, control validation, UI formatting
 
-🚀 Features
+# 🚀 Features
 🔹 Talk Plan Selection
 800 Minutes: $19.99
 
@@ -54,7 +54,7 @@ Clear – resets all input fields and results
 
 Exit – safely closes the application
 
-🛠 Code Highlights
+# 🛠 Code Highlights
 Uses constants for pricing and tax rate to ensure maintainability
 
 Utilizes .Checked property of form controls to collect user input
