@@ -3,6 +3,7 @@
 Overview
 This is a basic Windows Forms application built using Visual Basic .NET. The program allows users to calculate their monthly mobile phone plan cost based on selected options such as talk minutes, phone type, text messaging, and video chat features. It then applies tax and displays the final monthly cost.
 
+
 🧩 Features
 Selectable talk time plans:
 
@@ -36,6 +37,8 @@ Total Monthly Cost
 
 Buttons to calculate, clear, and exit the form.
 
+
+
 🛠 How It Works
 User Input:
 
@@ -68,6 +71,8 @@ Reset and Exit:
 "Clear" resets all selections and labels
 
 "Exit" closes the application
+
+
 
 🧾 UI Elements
 Radio Buttons:
